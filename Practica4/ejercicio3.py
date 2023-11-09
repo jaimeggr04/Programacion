@@ -9,8 +9,10 @@ grade = int(input("¿Cual es su nota?: "))
 age = int(input("¿Cual es su edad?: "))
 gender = str(input("¿Cual es su genero?"))
 
+# Verificar si la nota es mayor o igual a 5, la edad es mayor o igual a 18 y el género es "F"
 if grade >= 5 and age >= 18 and gender == "F":
     print("ACEPTADA")
+# Verificar si la nota es mayor o igual a 5, la edad es mayor o igual a 18 y el género es "M"
 if grade >= 5 and age >= 18 and gender == "M":
     print("POSIBLE")
 else:
