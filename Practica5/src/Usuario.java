@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Usuario {
-    // Parametros
+    // Escribimos los parametros
     private String name;
     private String subName;
     private int pCode;
@@ -8,7 +8,7 @@ public class Usuario {
     private String email;
     private String password;
 
-    //Constructor
+    //Creamos el constructor
     public Usuario(String n, String s, int pc, String a, String e, String p){
         this.name = n;
         this.subName = s;
@@ -18,6 +18,7 @@ public class Usuario {
         this.password = p;
     }
 
+    //Utilizamos get para crear y set para modificar
     public String getName(){
         return this.name;
     }
@@ -71,6 +72,7 @@ public class Usuario {
 
     }
 
+    //Utilizamos check para comprobar que el usuario y contraseña que escrib, funcione
     public void check() {
         String res = "";
         Scanner s = new Scanner(System.in);
